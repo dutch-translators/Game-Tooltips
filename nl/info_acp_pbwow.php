@@ -28,7 +28,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
 	'GAME_TOOLTIPS'           => 'Game Tooltips',
-	'GAME_TOOLTIPS_EXPLAIN'   => 'Met deze extensie kun je tooltips van verschillende spellen weergeve. Het werkt normaal door te kijken naar links op de huidige pagina die worden getoond aan gebruker, en voegt dan een JavaScript mouse-over effect met context aan de link toe.',
+	'GAME_TOOLTIPS_EXPLAIN'   => 'Met deze extensie kun je tooltips van verschillende spellen weergeven. Het werkt door te kijken naar links op de huidige pagina die worden getoond aan de gebruiker, en voegt dan een JavaScript mouse-over effect met context aan de link toe.',
 	'GAME_TOOLTIPS_SETTINGS'  => 'Instellingen',
 	'GTTIPS_WOWHEAD'          => 'Wowhead Tooltips',
 	'GTTIPS_WOWHEAD_EXPLAIN'  => 'Schakelt tooltips voor World of Warcraft en HearthStone in. Voor meer informatie, bezoek <a href="http://www.wowhead.com/tooltips" target="_blank">Wowhead</a>.',
